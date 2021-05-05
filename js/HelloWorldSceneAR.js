@@ -43,7 +43,7 @@ export default class HelloWorldSceneAR extends Component {
     if (state == ViroConstants.TRACKING_NORMAL) {
       this.setState({
         // once initialized the below is rendered via AR
-        text: `What's in the box?!`,
+        text: `Tap below`,
       });
     } else if (state == ViroConstants.TRACKING_NONE) {
       // Handle loss of tracking
